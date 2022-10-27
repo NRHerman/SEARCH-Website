@@ -1,7 +1,7 @@
 <template>
   <sidebar-menu :menu="menu" />
 
-  <div>
+  <div id="topSection">
     <video :class="{'fade-out': !isIntersectingElement1}" autoplay loop muted class="video">
       <source src="./assets/BeeBackground.mp4" type="video/webm">
       <source src="./assets/BeeBackground.mp4" type="video/mp4">
@@ -16,7 +16,7 @@
       ></intersection-observer>
   </div>
   
-  <div>
+  <div id="secondSection">
     <p>The intersection is here</p>
     <intersection-observer
         sentinal-name="sentinal-name"
@@ -77,12 +77,12 @@ export default {
             hiddenOnCollapse: true
           },
           {
-            href: '/',
+            href: '#topSection',
             title: 'Dashboard',
             icon: 'fa fa-user'
           },
           {
-            href: '/charts',
+            href: '#secondSection',
             title: 'Charts',
             icon: 'fa fa-chart-area',
             child: [
