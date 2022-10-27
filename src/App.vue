@@ -6,7 +6,7 @@
     </video>
     <img class="logo" alt="Vue logo" src="./assets/logo.png">
     <img class="logo" alt="Vue logo" src="./assets/logo.png">
-    <h1 style="transform: translate(8.5%, 75%);">Welcome to SEARCH</h1>
+    <h1 style="transform: translate(8.75%, 15%);">Welcome to SEARCH</h1>
     <p>The intersection is here</p>
     <intersection-observer
         sentinal-name="sentinal-name"
