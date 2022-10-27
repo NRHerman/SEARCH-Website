@@ -1,14 +1,12 @@
 <template>
-  <sidebar-menu :menu="menu" />
-
-  <div id="topSection">
+  <div>
     <video :class="{'fade-out': !isIntersectingElement1}" autoplay loop muted class="video">
       <source src="./assets/BeeBackground.mp4" type="video/webm">
       <source src="./assets/BeeBackground.mp4" type="video/mp4">
     </video>
     <img class="logo" alt="Vue logo" src="./assets/logo.png">
     <img class="logo" alt="Vue logo" src="./assets/logo.png">
-    <h1>Welcome to SEARCH</h1>
+    <h1 style="transform: translate(8.5%, 75%);">Welcome to SEARCH</h1>
     <p>The intersection is here</p>
     <intersection-observer
         sentinal-name="sentinal-name"
@@ -17,6 +15,16 @@
   </div>
   
   <div id="secondSection">
+    <p class="bodyText" style="transform: translate(75%, 800%); margin-bottom:50%">
+      Look at me, I'm the main goal of the club in five to ten sentences.
+      This is crazy, and no one has ever done this before. 
+      Yes, this is indeed default text.
+      But it would be funny if I just left this in the website.
+      Maybe I'll leave an easter egg to unlock this.
+      No, I won't. I'm a trustworthy, professional lad. 
+      I'll probably even remove this before the leadership team meeting.
+      If I don't, I'll get so much anxiety.
+    </p>
     <p>The intersection is here</p>
     <intersection-observer
         sentinal-name="sentinal-name"
@@ -51,6 +59,8 @@
       ></intersection-observer>
     <img class="background" :class="{'fade-out': !isIntersectingElement5}" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
   </div>
+
+  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(0%, 27.5%); height: 60%; border-radius: 25px;"/>
 </template>
 
 <script>
@@ -77,7 +87,7 @@ export default {
             hiddenOnCollapse: true
           },
           {
-            href: '#topSection',
+            href: '#top',
             title: 'Dashboard',
             icon: 'fa fa-user'
           },
@@ -121,14 +131,15 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff; 
   margin-top: 60px;
 }
 
 .logo {
-  margin: 120px;
+  margin: 20px;
   width: 7.5%;
   margin-top: -50px;
+  transform: translate(-540%, 0%);
 }
 
 .background {
@@ -148,6 +159,11 @@ export default {
 
 .background.fade-out {
   opacity: 0;
+}
+
+.bodyText {
+  width: 50%;
+  transform: translate(75%, 800%);
 }
 
 video {
