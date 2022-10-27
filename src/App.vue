@@ -1,16 +1,19 @@
 <template>
+  <sidebar-menu :menu="menu" />
+
   <div>
-    <p>The intersection is here</p>
-    <intersection-observer
-        sentinal-name="sentinal-name"
-        @on-intersection-element="onIntersectionElement1"
-      ></intersection-observer>
     <video :class="{'fade-out': !isIntersectingElement1}" autoplay loop muted class="video">
       <source src="./assets/BeeBackground.mp4" type="video/webm">
       <source src="./assets/BeeBackground.mp4" type="video/mp4">
     </video>
     <img class="logo" alt="Vue logo" src="./assets/logo.png">
     <img class="logo" alt="Vue logo" src="./assets/logo.png">
+    <h1>Welcome to SEARCH</h1>
+    <p>The intersection is here</p>
+    <intersection-observer
+        sentinal-name="sentinal-name"
+        @on-intersection-element="onIntersectionElement1"
+      ></intersection-observer>
   </div>
   
   <div>
@@ -52,11 +55,14 @@
 
 <script>
 import IntersectionObserver from "./components/IntersectionObserver";
+import { SidebarMenu } from 'vue-sidebar-menu'
+import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 
 export default {
   name: 'App',
   components: {
-    IntersectionObserver
+    IntersectionObserver,
+    SidebarMenu
   },
   data() {
     return {
@@ -65,6 +71,28 @@ export default {
       isIntersectingElement3: false,
       isIntersectingElement4: false,
       isIntersectingElement5: false,
+      menu: [
+          {
+            header: 'Main Navigation',
+            hiddenOnCollapse: true
+          },
+          {
+            href: '/',
+            title: 'Dashboard',
+            icon: 'fa fa-user'
+          },
+          {
+            href: '/charts',
+            title: 'Charts',
+            icon: 'fa fa-chart-area',
+            child: [
+              {
+                href: '/charts/sublink',
+                title: 'Sub Link'
+              }
+            ]
+          }
+        ]
     }
   },
   methods: {
@@ -139,5 +167,9 @@ video {
 
 .video.fade-out {
   opacity: 0;
+}
+
+h1 {
+  font-size: 80px;
 }
 </style>
