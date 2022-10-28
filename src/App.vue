@@ -60,7 +60,7 @@
     <img class="background" :class="{'fade-out': !isIntersectingElement5}" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
   </div>
 
-  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(0%, 27.5%); height: 60%; border-radius: 25px;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(3%, 27.5%); height: 60%; border-radius: 25px;"/>
 </template>
 
 <script>
@@ -127,7 +127,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Avenir, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -139,7 +139,7 @@ export default {
   margin: 20px;
   width: 7.5%;
   margin-top: -50px;
-  transform: translate(-540%, 0%);
+  transform: translate(-533%, 0%);
 }
 
 .background {
