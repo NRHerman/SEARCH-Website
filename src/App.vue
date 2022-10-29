@@ -1,66 +1,46 @@
 <template>
   <div>
-    <video :class="{'fade-out': !isIntersectingElement1}" autoplay loop muted class="video">
+    <video autoplay loop muted class="video">
       <source src="./assets/BeeBackground.mp4" type="video/webm">
       <source src="./assets/BeeBackground.mp4" type="video/mp4">
     </video>
-    <img class="logo" alt="Vue logo" src="./assets/logo.png">
-    <img class="logo" alt="Vue logo" src="./assets/logo.png">
-    <h1 style="transform: translate(8.75%, 15%);">Welcome to SEARCH</h1>
-    <p>The intersection is here</p>
-    <intersection-observer
-        sentinal-name="sentinal-name"
-        @on-intersection-element="onIntersectionElement1"
-      ></intersection-observer>
+    <img class="logo" style="top: 70px; left: 145px;" alt="Vue logo" src="./assets/logo.png">
+    <img class="logo" style="top: 70px; left: 10px;" alt="Vue logo" src="./assets/logo.png">
+    <h1 style="transform: translate(5.5%, 300%);">Welcome to SEARCH</h1>
   </div>
   
   <div id="secondSection">
-    <p class="bodyText" style="transform: translate(75%, 800%); margin-bottom:50%">
-      Look at me, I'm the main goal of the club in five to ten sentences.
-      This is crazy, and no one has ever done this before. 
-      Yes, this is indeed default text.
-      But it would be funny if I just left this in the website.
-      Maybe I'll leave an easter egg to unlock this.
-      No, I won't. I'm a trustworthy, professional lad. 
-      I'll probably even remove this before the leadership team meeting.
-      If I don't, I'll get so much anxiety.
-    </p>
-    <p>The intersection is here</p>
-    <intersection-observer
-        sentinal-name="sentinal-name"
-        @on-intersection-element="onIntersectionElement2"
-      ></intersection-observer>
-    <img class="background" :class="{'fade-out': !isIntersectingElement2}" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 50%);">
+    <div class="infoText" style="transform: translate(50%, 230%);">
+      <h2 style="transform: translate(-25%, -27.5%);">What we do.</h2>
+      <p class="bodyText" style="transform: translate(10%, -22.5%); width: 700px; text-align: left;">
+        Look at me, I'm the main goal of the club in five to ten sentences.
+        This is crazy, and no one has ever done this before. 
+        Yes, this is indeed default text.
+        But it would be funny if I just left this in the website.
+        Maybe I'll leave an easter egg to unlock this.
+        No, I won't. I'm a trustworthy, professional lad. 
+        I'll probably even remove this before the leadership team meeting.
+        If I don't, I'll get so much anxiety.
+        Look at me, I'm the main goal of the club repeated in five to ten sentences.
+        This is crazy, and no one has ever done this before.
+      </p>
+    </div>
+    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 50%);">
   </div>
 
   <div>
-    <p>The intersection is here</p>
-    <intersection-observer
-        sentinal-name="sentinal-name"
-        @on-intersection-element="onIntersectionElement3"
-      ></intersection-observer>
-    <img class="background" :class="{'fade-out': !isIntersectingElement3}" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
+    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
   </div>
 
   <div>
-    <p>The intersection is here</p>
-    <intersection-observer
-        sentinal-name="sentinal-name"
-        @on-intersection-element="onIntersectionElement4"
-      ></intersection-observer>
-    <img class="background" :class="{'fade-out': !isIntersectingElement4}" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
+    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
   </div>
 
   <div>
-    <p>The intersection is here</p>
-    <intersection-observer
-        sentinal-name="sentinal-name"
-        @on-intersection-element="onIntersectionElement5"
-      ></intersection-observer>
-    <img class="background" :class="{'fade-out': !isIntersectingElement5}" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
+    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
   </div>
 
-  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(3%, 27.5%); height: 60%; border-radius: 25px;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" theme="white-theme" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px;"/>
 </template>
 
 <script>
@@ -76,31 +56,29 @@ export default {
   },
   data() {
     return {
-      isIntersectingElement1: false,
-      isIntersectingElement2: false,
-      isIntersectingElement3: false,
-      isIntersectingElement4: false,
-      isIntersectingElement5: false,
       menu: [
           {
-            header: 'Main Navigation',
             hiddenOnCollapse: true
           },
           {
             href: '#top',
-            title: 'Dashboard',
+            title: 'Mission',
             icon: 'fa fa-user'
           },
           {
             href: '#secondSection',
-            title: 'Charts',
-            icon: 'fa fa-chart-area',
-            child: [
-              {
-                href: '/charts/sublink',
-                title: 'Sub Link'
-              }
-            ]
+            title: 'MDRS',
+            icon: 'fa fa-user',
+          },
+          {
+            href: '#secondSection',
+            title: 'Leadership',
+            icon: 'fa fa-user',
+          },
+          {
+            href: '#secondSection',
+            title: 'Join Us',
+            icon: 'fa fa-user',
           }
         ]
     }
@@ -131,15 +109,20 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffffff; 
+  color: #000000; 
   margin-top: 60px;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .logo {
   margin: 20px;
   width: 7.5%;
   margin-top: -50px;
-  transform: translate(-533%, 0%);
+  position: fixed;
 }
 
 .background {
@@ -164,6 +147,7 @@ export default {
 .bodyText {
   width: 50%;
   transform: translate(75%, 800%);
+  font-size: 20px;
 }
 
 video {
@@ -185,7 +169,20 @@ video {
   opacity: 0;
 }
 
+.infoText {
+  height: 340px;
+  width: 800px;
+  border: 20px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  opacity: 0.75;
+}
+
 h1 {
   font-size: 80px;
+}
+
+h2 {
+  font-size: 60px;
 }
 </style>
