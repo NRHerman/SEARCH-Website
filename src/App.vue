@@ -29,6 +29,14 @@
   </div>
 
   <div>
+    <div class="infoText" style="transform: translate(50%, 403%); height: 300px;">
+      <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
+      <p class="bodyText" style="transform: translate(10%, -65%); width: 700px; text-align: left;">
+        Look at me, I'm the main goal of the club in five to ten sentences.
+        This is crazy, and no one has ever done this before. 
+        Yes, this is indeed default text.
+      </p>
+    </div>
     <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
   </div>
 
@@ -40,7 +48,7 @@
     <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
   </div>
 
-  <sidebar-menu :menu="menu" hideToggle="true" theme="white-theme" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" theme="white-theme" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
