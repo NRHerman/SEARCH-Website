@@ -29,13 +29,26 @@
   </div>
 
   <div>
-    <div class="infoText" style="transform: translate(50%, 403%); height: 300px;">
+    <div class="infoText" style="transform: translate(50%, 195%); height: 600px;">
       <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
       <p class="bodyText" style="transform: translate(10%, -65%); width: 700px; text-align: left;">
-        Look at [a href=”http://www.codecademy.com/"]me[/a], I'm the main goal of the club in five to ten sentences.
+        Look at <a href="http://mdrs.marssociety.org/">me</a>, I'm the main goal of the club in five to ten sentences.
         This is crazy, and no one has ever done this before. 
         Yes, this is indeed default text.
       </p>
+      <h3 style="transform: translate(3.5%, -55%); text-align: left;">Past Missions</h3>
+      <div style="transform: translate(-10%, 0%)">
+        <a href="http://mdrs.marssociety.org/">
+         <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(-200%, 20%)">
+        </a>
+        <a href="http://mdrs.marssociety.org/">
+         <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(0%, 20%)">
+        </a>
+        <a href="http://mdrs.marssociety.org/">
+         <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(200%, 20%)">
+        </a>
+        <h4 style="transform: translate(10%, 330%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
+      </div>
     </div>
     <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
   </div>
@@ -133,6 +146,13 @@ html {
   position: fixed;
 }
 
+.button {
+  margin: 20px;
+  width: 15%;
+  margin-top: -50px;
+  position: fixed;
+}
+
 .background {
   z-index: -1000;
   left: 50%;
@@ -192,5 +212,18 @@ h1 {
 
 h2 {
   font-size: 60px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 173.5px;
 }
 </style>
