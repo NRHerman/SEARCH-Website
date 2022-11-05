@@ -32,7 +32,7 @@
     <div class="infoText" style="transform: translate(50%, 403%); height: 300px;">
       <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
       <p class="bodyText" style="transform: translate(10%, -65%); width: 700px; text-align: left;">
-        Look at me, I'm the main goal of the club in five to ten sentences.
+        Look at [a href=”http://www.codecademy.com/"]me[/a], I'm the main goal of the club in five to ten sentences.
         This is crazy, and no one has ever done this before. 
         Yes, this is indeed default text.
       </p>
