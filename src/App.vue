@@ -54,6 +54,9 @@
   </div>
 
   <div>
+    <div class="fade-in-image">
+      <img src="./assets/logo.png">
+    </div>
     <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
   </div>
 
@@ -61,7 +64,7 @@
     <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
   </div>
 
-  <sidebar-menu :menu="menu" hideToggle="true" theme="white-theme" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
@@ -79,7 +82,7 @@ export default {
     return {
       menu: [
           {
-            hiddenOnCollapse: true
+            hiddenOnCollapse: true,
           },
           {
             href: '#top',
@@ -223,7 +226,16 @@ h4 {
 }
 
 .tab {
-    display: inline-block;
-    margin-left: 173.5px;
+  display: inline-block;
+  margin-left: 173.5px;
+}
+
+.fade-in-image {
+  opacity: 100%;
+}
+
+.fade-in-image:hover {
+  opacity: 0%;
+  transition: opacity 1s;
 }
 </style>
