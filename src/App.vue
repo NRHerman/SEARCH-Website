@@ -9,7 +9,7 @@
     <h1 style="transform: translate(5.5%, 300%);">Welcome to SEARCH</h1>
   </div>
   
-  <div id="secondSection">
+  <div>
     <div class="infoText" style="transform: translate(50%, 230%);">
       <h2 style="transform: translate(-25%, -27.5%);">What we do.</h2>
       <p class="bodyText" style="transform: translate(10%, -22.5%); width: 700px; text-align: left;">
@@ -25,7 +25,7 @@
         This is crazy, and no one has ever done this before.
       </p>
     </div>
-    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 50%);">
+    <img  id="mission" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 50%);">
   </div>
 
   <div>
@@ -50,57 +50,76 @@
         <h4 style="transform: translate(10%, 330%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
       </div>
     </div>
-    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
+    <img id="MDRS" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
   </div>
 
   <div>
-    <div class="fade-in-image">
-      <img src="./assets/logo.png">
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 710%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 587.5%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 465%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 342.5%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 220%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 247.5%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 125%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 2.5%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, -120%)"></image-to-text>
+    <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, -242.5%)"></image-to-text>
+    <img id="leadership" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
+  </div>
+
+  <div>
+    <div class="infoText" style="transform: translate(75%, 80%); height: 275px; width: 650px;">
+      <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
+
+      <a href="http://mdrs.marssociety.org/">
+        <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(-175%, 30%);">
+      </a>
+      <a href="http://mdrs.marssociety.org/">
+        <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(45%, 30%);">
+      </a>
     </div>
-    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
-  </div>
 
-  <div>
-    <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
+    <img id="joinUs" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
   </div>
 
   <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
-import IntersectionObserver from "./components/IntersectionObserver";
 import { SidebarMenu } from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
+import ImageToText from "./components/ImageToText"
 
 export default {
   name: 'App',
   components: {
-    IntersectionObserver,
-    SidebarMenu
+    SidebarMenu,
+    ImageToText
   },
   data() {
     return {
       menu: [
           {
             hiddenOnCollapse: true,
+            header: 'SEARCH',
           },
           {
-            href: '#top',
+            href: '#mission',
             title: 'Mission',
             icon: 'fa fa-user'
           },
           {
-            href: '#secondSection',
+            href: '#MDRS',
             title: 'MDRS',
             icon: 'fa fa-user',
           },
           {
-            href: '#secondSection',
+            href: '#leadership',
             title: 'Leadership',
             icon: 'fa fa-user',
           },
           {
-            href: '#secondSection',
+            href: '#joinUs',
             title: 'Join Us',
             icon: 'fa fa-user',
           }
@@ -228,14 +247,5 @@ h4 {
 .tab {
   display: inline-block;
   margin-left: 173.5px;
-}
-
-.fade-in-image {
-  opacity: 100%;
-}
-
-.fade-in-image:hover {
-  opacity: 0%;
-  transition: opacity 1s;
 }
 </style>
