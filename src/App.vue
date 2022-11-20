@@ -5,11 +5,11 @@
         <source src="./assets/BeeBackground.mp4" type="video/webm">
         <source src="./assets/BeeBackground.mp4" type="video/mp4">
       </video>
-      <h1 style="transform: translate(5.5%, 33vh);">Welcome to SEARCH</h1>
+      <h1 style="transform: translate(5.5%, 19.5vw);">Welcome to SEARCH</h1>
     </div>
     
     <div>
-      <div class="infoText" style="transform: translate(30vw, 95vh);">
+      <div class="infoText" style="transform: translate(30vw, 54vw);">
         <h2 style="transform: translate(-25%, -27.5%);">What we do.</h2>
         <p class="bodyText" style="transform: translate(10%, -27.5%); width: 87.5%; text-align: left;">
           We are Purdue University's premiere space focused chapter. Our vision as a multidisciplinary
@@ -27,7 +27,7 @@
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(30vw, 127.5vh); height: 40vw;">
+      <div class="infoText" style="transform: translate(30vw, 73vw); height: 40vw;">
         <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
         <p class="bodyText" style="transform: translate(10%, -65%); width: 45vw; text-align: left;">
           The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue for a two-week Mars-analog simulation in the desert of Utah. There, students perform innovative scientific experiments and simulate complete isolation to further advance the possibilities of Mars exploration.
@@ -169,10 +169,10 @@ html {
 .background {
   z-index: -1000;
   left: 50%;
-  min-width: 100vw;
-  height: 100%;
+  width: 100vw;
+  height: 57.208994709vw;
   position: absolute;
-  top: 50%;
+  top: 28.6044973545vw;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -195,10 +195,10 @@ html {
 video {
   z-index: -1000;
   left: 50%;
-  min-width: 100vw;
-  height: 100%;
+  width: 100vw;
+  height: 57.208994709vw;
   position: absolute;
-  top: 50%;
+  top: 28.6044973545vw;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
