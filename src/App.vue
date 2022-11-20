@@ -5,7 +5,7 @@
         <source src="./assets/BeeBackground.mp4" type="video/webm">
         <source src="./assets/BeeBackground.mp4" type="video/mp4">
       </video>
-      <h1 style="transform: translate(5.5%, 300%);">Welcome to SEARCH</h1>
+      <h1 style="transform: translate(5.5%, 33vh);">Welcome to SEARCH</h1>
     </div>
     
     <div>
@@ -16,7 +16,8 @@
           organization of students, faculty, staff, and alumni is to add more members and partners to the Cradle of Astronauts as well as increase support for human spaceflight and space exploration.
         </p>
         <p class="bodyText" style="transform: translate(10%, -27.5%); width: 87.5%; text-align: left;">
-          We were founded by passionate students of space and wish to grow through analog astronaut missions, outreach events with industry experts, national and global competitions, and skill building workshops. We wish to offer our members unique and hands-on learning experiences to constantly remind them why they fell in love with space.
+          We were founded by passionate students of space and wish to grow through analog astronaut missions, outreach events with industry experts, national and global competitions, and skill building workshops. 
+          We wish to offer our members unique and hands-on learning experiences to constantly remind them why they fell in love with space.
         </p>
         <p class="bodyText" style="transform: translate(10%, -152.5%); width: 87.5%; text-align: left;">
           The organizational structure of SEARCH is split into three technical sub-teams:
@@ -26,7 +27,7 @@
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(30vw, 127.5vh); height: 68vh;">
+      <div class="infoText" style="transform: translate(30vw, 127.5vh); height: 40vw;">
         <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
         <p class="bodyText" style="transform: translate(10%, -65%); width: 45vw; text-align: left;">
           The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue for a two-week Mars-analog simulation in the desert of Utah. There, students perform innovative scientific experiments and simulate complete isolation to further advance the possibilities of Mars exploration.
@@ -168,8 +169,8 @@ html {
 .background {
   z-index: -1000;
   left: 50%;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  height: 100%;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -188,14 +189,14 @@ html {
   width: 50%;
   transform: translate(75%, 800%);
   font-size: 1.3vw;
-  margin: 3vh;
+  margin: 1.5vw;
 }
 
 video {
   z-index: -1000;
   left: 50%;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  height: 100%;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
