@@ -1,7 +1,7 @@
 <template>
 <div>
-    <h4 style="object-fit: cover; width: 200px; position: relative; transform: translate(0%, 325%);">{{name}}</h4>
-    <h4 style="object-fit: cover;  width: 200px; position: relative; transform: translate(0%, 325%);">{{title}}</h4>
+    <h4 style="object-fit: cover; width: 13.2275132275vw; position: relative; transform: translate(0%, 250%);">{{name}}</h4>
+    <h4 style="object-fit: cover; width: 13.2275132275vw; position: relative; transform: translate(0%, 275%);">{{title}}</h4>
     <div class="fade-in-image" style="position: absolute">
       <img src="../assets/logo.png">
     </div>
@@ -25,6 +25,7 @@ export default {
   transition: opacity 1s;
   background-color: rgb(255, 255, 255);
   max-width: 15%;
+  margin: 0px;
 }
 
 .fade-in-image:hover {
@@ -32,9 +33,16 @@ export default {
   transition: opacity 1s;
   background-color: rgb(255, 255, 255);
   max-width: 15%;
+  margin: 0px;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 2.05vw;
+  margin: 0px;
+}
+
+img {
+  width: 13.2275132275vw;
+  margin: 0px;
 }
 </style>

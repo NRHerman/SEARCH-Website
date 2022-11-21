@@ -33,7 +33,7 @@
           The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue for a two-week Mars-analog simulation in the desert of Utah. There, students perform innovative scientific experiments and simulate complete isolation to further advance the possibilities of Mars exploration.
         </p>
         <h3 style="transform: translate(3.5%, -160%); text-align: left;">Past Missions</h3>
-        <div style="transform: translate(-10%, -185%)">
+        <div style="transform: translate(-10%, -3.8vw)">
           <a href="http://mdrs.marssociety.org/">
           <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(-200%, 20%)">
           </a>
@@ -51,22 +51,22 @@
 
     <div>
       <div style="transform: translate(0%, -5%)">
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 710%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 587.5%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 465%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 342.5%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 220%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 247.5%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 125%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 2.5%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, -120%)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, -242.5%)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 88vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 78.59vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 69.18vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 59.77vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 50.36vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 57.95vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 48.54vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 39.13vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 29.72vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 20.31vw)"></image-to-text>
       </div>
       <img id="leadership" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(70%, 37.5%); height: 275px; width: 650px;">
+      <div class="infoText" style="transform: translate(70%, 320%); height: 18.1878306878vw; width: 42.9894179894vw;">
         <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
 
         <a href="http://mdrs.marssociety.org/">
@@ -83,7 +83,7 @@
 
 
   <img class="logo" style="top: 70px; left: 145px;" alt="Vue logo" src="./assets/logo.png">
-    <img class="logo" style="top: 70px; left: 10px;" alt="Vue logo" src="./assets/logo.png">
+  <img class="logo" style="top: 70px; left: 10px;" alt="Vue logo" src="./assets/logo.png">
   <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
 
@@ -160,9 +160,9 @@ html {
 }
 
 .button {
-  margin: 20px;
+  margin: 1.32275132275vw;
   width: 15%;
-  margin-top: -50px;
+  margin-top: -3.30687830688vw;
   position: fixed;
 }
 
