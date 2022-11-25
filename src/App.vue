@@ -1,4 +1,8 @@
 <template>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;605&display=swap" rel="stylesheet">
+
   <div id="page">
     <div>
       <video autoplay loop muted class="video">
@@ -27,13 +31,13 @@
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(30vw, 73vw); height: 40vw;">
+      <div class="infoText" style="transform: translate(30vw, 72vw); height: 40vw;">
         <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
-        <p class="bodyText" style="transform: translate(10%, -65%); width: 45vw; text-align: left;">
+        <p class="bodyText" style="transform: translate(10%, -50%); width: 45vw; text-align: left;">
           The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue for a two-week Mars-analog simulation in the desert of Utah. There, students perform innovative scientific experiments and simulate complete isolation to further advance the possibilities of Mars exploration.
         </p>
         <h3 style="transform: translate(3.5%, -160%); text-align: left;">Past Missions</h3>
-        <div style="transform: translate(-10%, -3.8vw)">
+        <div style="transform: translate(-10%, -5.5vw)">
           <a href="http://mdrs.marssociety.org/">
           <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(-200%, 20%)">
           </a>
@@ -43,7 +47,7 @@
           <a href="http://mdrs.marssociety.org/">
           <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(200%, 20%)">
           </a>
-          <h4 style="transform: translate(10%, 330%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
+          <h4 style="transform: translate(10%, 215%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
         </div>
       </div>
       <img id="MDRS" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
@@ -51,22 +55,22 @@
 
     <div>
       <div style="transform: translate(0%, -5%)">
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 88vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 78.59vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 69.18vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 59.77vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 50.36vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 57.95vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 48.54vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 39.13vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 29.72vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 20.31vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 103vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 90.8vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 78.6vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 66.4vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 54.2vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 25vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 12.8vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 0.6vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, -11.6vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, -23.8vw)"></image-to-text>
       </div>
       <img id="leadership" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(70%, 320%); height: 18.1878306878vw; width: 42.9894179894vw;">
+      <div class="infoText" style="transform: translate(70%, 160%); height: 18.1878306878vw; width: 42.9894179894vw;">
         <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
 
         <a href="http://mdrs.marssociety.org/">
@@ -84,7 +88,7 @@
 
   <img class="logo" style="top: 70px; left: 145px;" alt="Vue logo" src="./assets/logo.png">
   <img class="logo" style="top: 70px; left: 10px;" alt="Vue logo" src="./assets/logo.png">
-  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 30%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 31%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
@@ -133,7 +137,7 @@ export default {
 
 <style>
 #app {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -189,7 +193,7 @@ html {
   width: 50%;
   transform: translate(75%, 800%);
   font-size: 1.3vw;
-  margin: 1.5vw;
+  margin: 2.25vw;
 }
 
 video {
@@ -222,18 +226,22 @@ video {
 
 h1 {
   font-size: 5.65vw;
+  margin: 2.7vw;
 }
 
 h2 {
   font-size: 4.52vw;
+  margin: 2.7vw;
 }
 
 h3 {
   font-size: 2.325vw;
+  margin: 2.7vw;
 }
 
 h4 {
   font-size: 2.05vw;
+  margin: 2.7vw;
 }
 
 .tab {
