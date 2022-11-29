@@ -21,7 +21,7 @@
           We wish to offer our members unique and hands-on learning experiences to constantly remind them why they fell in love with space.
         </p>
         <p class="bodyText" style="transform: translate(10%, -152.5%); width: 87.5%; text-align: left;">
-          The organizational structure of SEARCH is split into three technical sub-teams:
+          The organizational structure of SEARCH is split into three technical sub-teams: Analogs, Research, and Outreach.
         </p>
       </div>
       <img  id="mission" class="background" alt="Background" src="./assets/SEARCHMissionScreen.jpg" style="transform: translate(-50%, 50%);">
@@ -36,23 +36,23 @@
         <h3 style="transform: translate(3.5%, -160%); text-align: left;">Past Missions</h3>
         <div style="transform: translate(-10%, -5.5vw)">
           <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(-200%, 20%)">
+          <img class="button" alt="logo" src="./assets/MDRSCrew3.png" style="transform: translate(-200%, 20%);">
           </a>
           <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(0%, 20%)">
+          <img class="button" alt="logo" src="./assets/MDRSCrew2.png" style="transform: translate(20%, 20%); width: 11%;">
           </a>
           <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(200%, 20%)">
+          <img class="button" alt="logo" src="./assets/MDRSCrew1.png" style="transform: translate(200%, 20%)">
           </a>
-          <h4 style="transform: translate(11%, 215%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
+          <h4 style="transform: translate(11.45%, 215%);">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
         </div>
       </div>
       <img id="MDRS" class="background" alt="Background" src="./assets/SEARCHMDRSScreen.jpg" style="transform: translate(-50%, 150%);">
     </div>
 
     <div>
-      <div style="transform: translate(0%, -5%)">
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 103vw)"></image-to-text>
+      <div style="transform: translate(0%, -5%);">
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 103vw);"></image-to-text>
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 90.8vw)"></image-to-text>
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 78.6vw)"></image-to-text>
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 66.4vw)"></image-to-text>
@@ -71,7 +71,7 @@
         <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
 
         <a href="https://boilerlink.purdue.edu/organization/search">
-          <img class="button" alt="logo" src="./assets/purdueLogo.png" style="transform: translate(-135%, 47%); width: 22.5%;">
+          <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(-185%, 30%);">
         </a>
         <a href="http://mdrs.marssociety.org/">
           <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(45%, 30%);">
@@ -81,7 +81,6 @@
       <img id="joinUs" class="background" alt="Background" src="./assets/SEARCHContactUsScreen.jpg" style="transform: translate(-50%, 350%);">
     </div>
   </div>
-
 
   <h4 class="logoText" style="top: 70px; left: 10vw; color: white;">SEARCH of Purdue</h4>
   <img class="logo" style="top: 70px; left: 0.661375661376vw;" alt="SEARCH Logo" src="./assets/SEARCH_logo.png">
@@ -173,6 +172,8 @@ html {
   width: 15%;
   margin-top: -3.30687830688vw;
   position: fixed;
+  z-index: 1000;
+  opacity: 1;
 }
 
 .background {
@@ -225,7 +226,6 @@ video {
   border: 1vw solid rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   border-radius: 1.25vw;
-  opacity: 0.75;
   margin: 0px;
 }
 
@@ -252,6 +252,6 @@ h4 {
 
 .tab {
   display: inline-block;
-  margin-left: 11.95vw;
+  margin-left: 12vw;
 }
 </style>
