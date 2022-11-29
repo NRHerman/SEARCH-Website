@@ -24,7 +24,7 @@
           The organizational structure of SEARCH is split into three technical sub-teams:
         </p>
       </div>
-      <img  id="mission" class="background" alt="Background" src="./assets/SEARCHMissionScreen.jpg" style="transform: translate(-50%, 50%);">
+      <img  id="mission" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 50%);">
     </div>
 
     <div>
@@ -47,7 +47,7 @@
           <h4 style="transform: translate(10%, 215%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
         </div>
       </div>
-      <img id="MDRS" class="background" alt="Background" src="./assets/SEARCHMDRSScreen.jpg" style="transform: translate(-50%, 150%);">
+      <img id="MDRS" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 150%);">
     </div>
 
     <div>
@@ -63,7 +63,7 @@
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, -11.6vw)"></image-to-text>
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, -23.8vw)"></image-to-text>
       </div>
-      <img id="leadership" class="background" alt="Background" src="./assets/SEARCHLeadershipScreen.jpg" style="transform: translate(-50%, 250%);">
+      <img id="leadership" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
@@ -78,7 +78,7 @@
         </a>
       </div>
 
-      <img id="joinUs" class="background" alt="Background" src="./assets/SEARCHContactUsScreen.jpg" style="transform: translate(-50%, 350%);">
+      <img id="joinUs" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
     </div>
   </div>
 
