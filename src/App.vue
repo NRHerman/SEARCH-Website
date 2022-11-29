@@ -24,7 +24,7 @@
           The organizational structure of SEARCH is split into three technical sub-teams:
         </p>
       </div>
-      <img  id="mission" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 50%);">
+      <img  id="mission" class="background" alt="Background" src="./assets/SEARCHMissionScreen.jpg" style="transform: translate(-50%, 50%);">
     </div>
 
     <div>
