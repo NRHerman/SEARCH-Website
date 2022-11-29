@@ -20,7 +20,7 @@
           We were founded by passionate students of space and wish to grow through analog astronaut missions, outreach events with industry experts, national and global competitions, and skill building workshops. 
           We wish to offer our members unique and hands-on learning experiences to constantly remind them why they fell in love with space.
         </p>
-        <p class="bodyText" style="transform: translate(10%, -152.5%); width: 87.5%; text-align: left;">
+        <p class="bodyText" style="transform: translate(10%, -70%); width: 87.5%; text-align: left;">
           The organizational structure of SEARCH is split into three technical sub-teams: Analogs, Research, and Outreach.
         </p>
       </div>
@@ -28,20 +28,20 @@
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(30vw, 72vw); height: 40vw;">
+      <div class="infoText" style="transform: translate(30vw, 69vw); height: 40vw;">
         <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
         <p class="bodyText" style="transform: translate(10%, -50%); width: 45vw; text-align: left;">
           The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue for a two-week Mars-analog simulation in the desert of Utah. There, students perform innovative scientific experiments and simulate complete isolation to further advance the possibilities of Mars exploration.
         </p>
         <h3 style="transform: translate(3.5%, -160%); text-align: left;">Past Missions</h3>
         <div style="transform: translate(-10%, -5.5vw)">
-          <a href="http://mdrs.marssociety.org/">
+          <a href="http://mdrs.marssociety.org/2017-2018-field-season-17-crews-182-196/">
           <img class="button" alt="logo" src="./assets/MDRSCrew3.png" style="transform: translate(-200%, 20%);">
           </a>
-          <a href="http://mdrs.marssociety.org/">
+          <a href="http://mdrs.marssociety.org/field-season-19/">
           <img class="button" alt="logo" src="./assets/MDRSCrew2.png" style="transform: translate(20%, 20%); width: 11%;">
           </a>
-          <a href="http://mdrs.marssociety.org/">
+          <a href="http://mdrs.marssociety.org/field-season-20/">
           <img class="button" alt="logo" src="./assets/MDRSCrew1.png" style="transform: translate(200%, 20%)">
           </a>
           <h4 style="transform: translate(11.45%, 215%);">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
@@ -51,23 +51,23 @@
     </div>
 
     <div>
-      <div style="transform: translate(0%, -5%);">
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 103vw);"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 90.8vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 78.6vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, 66.4vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, 54.2vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(20%, 25vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(35%, 12.8vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(50%, 0.6vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, -11.6vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, -23.8vw)"></image-to-text>
+      <div style="transform: translate(20%, 94.5vw); height: 0px;"> 
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(0%, 0vw);"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(15%, -12.2vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(30%, -24.4vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(45%, -36.6vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(60%, -48.8vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(0%, -78vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(15%, -90.2vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(30%, -102.4vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(45%, -114.6vw)"></image-to-text>
+        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(60%, -126.8vw)"></image-to-text>
       </div>
       <img id="leadership" class="background" alt="Background" src="./assets/SEARCHLeadershipScreen.jpg" style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
-      <div class="infoText" style="transform: translate(70%, 160%); height: 18.1878306878vw; width: 42.9894179894vw;">
+      <div class="infoText" style="transform: translate(70%, 151.5vw); height: 18.1878306878vw; width: 42.9894179894vw;">
         <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
 
         <a href="https://boilerlink.purdue.edu/organization/search">
