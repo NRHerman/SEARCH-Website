@@ -83,9 +83,9 @@
   </div>
 
 
-  <img class="logo" style="top: 70px; left: 8vw; width: 13.5%;" alt="Purdue Logo" src="./assets/purdueLogo.png">
+  <h4 class="logoText" style="top: 70px; left: 10vw; color: white;">SEARCH of Purdue</h4>
   <img class="logo" style="top: 70px; left: 0.661375661376vw;" alt="SEARCH Logo" src="./assets/SEARCH_logo.png">
-  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 31%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(0%, 100%); margin-left: 3.30687830688vw; height: 31%; width: 140px; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
@@ -158,6 +158,14 @@ html {
   width: 7.5%;
   margin-top: -50px;
   position: fixed;
+}
+
+.logoText {
+  margin: 20px;
+  width: 7.5%;
+  margin-top: -50px;
+  position: fixed;
+  line-height: 125%;
 }
 
 .button {
