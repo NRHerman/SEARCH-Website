@@ -63,7 +63,7 @@
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(65%, -11.6vw)"></image-to-text>
         <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(80%, -23.8vw)"></image-to-text>
       </div>
-      <img id="leadership" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 250%);">
+      <img id="leadership" class="background" alt="Background" src="./assets/SEARCHLeadershipScreen.jpg" style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
