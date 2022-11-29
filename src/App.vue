@@ -74,7 +74,7 @@
           <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(-185%, 30%);">
         </a>
         <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(45%, 30%);">
+          <img class="button" alt="logo" src="./assets/googleLogo.png" style="transform: translate(45%, 30%);">
         </a>
       </div>
 

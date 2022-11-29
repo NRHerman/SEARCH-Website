@@ -3,7 +3,7 @@
     <h4 style="object-fit: cover; width: 13.2275132275vw; position: relative; transform: translate(0%, 225%);">{{name}}</h4>
     <h4 style="object-fit: cover; width: 13.2275132275vw; position: relative; transform: translate(0%, 230%);">{{title}}</h4>
     <div class="fade-in-image" style="position: absolute">
-      <img src="../assets/logo.png">
+      <img src="../assets/SEARCH_logo.png">
     </div>
 </div>
 </template>
