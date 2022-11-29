@@ -78,7 +78,7 @@
         </a>
       </div>
 
-      <img id="joinUs" class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, 350%);">
+      <img id="joinUs" class="background" alt="Background" src="./assets/SEARCHContactUsScreen.jpg" style="transform: translate(-50%, 350%);">
     </div>
   </div>
 
