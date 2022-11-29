@@ -70,11 +70,11 @@
       <div class="infoText" style="transform: translate(70%, 160%); height: 18.1878306878vw; width: 42.9894179894vw;">
         <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
 
-        <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(-175%, 30%);">
+        <a href="https://boilerlink.purdue.edu/organization/search">
+          <img class="button" alt="logo" src="./assets/purdueLogo.png" style="transform: translate(-135%, 47%); width: 22.5%;">
         </a>
         <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(45%, 30%);">
+          <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(45%, 30%);">
         </a>
       </div>
 
@@ -83,7 +83,7 @@
   </div>
 
 
-  <img class="logo" style="top: 70px; left: 8vw;  width: 13.5%;" alt="Purdue Logo" src="./assets/purdueLogo.png">
+  <img class="logo" style="top: 70px; left: 8vw; width: 13.5%;" alt="Purdue Logo" src="./assets/purdueLogo.png">
   <img class="logo" style="top: 70px; left: 0.661375661376vw;" alt="SEARCH Logo" src="./assets/SEARCH_logo.png">
   <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 31%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
