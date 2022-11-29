@@ -5,7 +5,7 @@
 
   <div id="page">
     <div>
-      <img class="background" alt="Background" src="./assets/SEARCHTitleScreen.jpg" style="transform: translate(-50%, -50%);">
+      <img class="background" alt="Background" src="./assets/TreeBackground.png" style="transform: translate(-50%, -50%);">
       <h1 style="transform: translate(19.5%, 12vw);">Welcome to SEARCH</h1>
     </div>
     
