@@ -44,7 +44,7 @@
           <a href="http://mdrs.marssociety.org/">
           <img class="button" alt="logo" src="./assets/logo.png" style="transform: translate(200%, 20%)">
           </a>
-          <h4 style="transform: translate(10%, 215%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
+          <h4 style="transform: translate(11%, 215%)">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
         </div>
       </div>
       <img id="MDRS" class="background" alt="Background" src="./assets/SEARCHMDRSScreen.jpg" style="transform: translate(-50%, 150%);">
@@ -83,8 +83,8 @@
   </div>
 
 
-  <img class="logo" style="top: 70px; left: 145px;" alt="Vue logo" src="./assets/logo.png">
-  <img class="logo" style="top: 70px; left: 10px;" alt="Vue logo" src="./assets/logo.png">
+  <img class="logo" style="top: 70px; left: 8vw;  width: 13.5%;" alt="Purdue Logo" src="./assets/purdueLogo.png">
+  <img class="logo" style="top: 70px; left: 0.661375661376vw;" alt="SEARCH Logo" src="./assets/SEARCH_logo.png">
   <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(30%, 100%); height: 31%; width: 12.5%; border-radius: 25px; background-color: transparent;"/>
 </template>
 
@@ -244,6 +244,6 @@ h4 {
 
 .tab {
   display: inline-block;
-  margin-left: 11.4vw;
+  margin-left: 11.95vw;
 }
 </style>
