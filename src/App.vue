@@ -51,30 +51,40 @@
     </div>
 
     <div>
-      <div style="transform: translate(20%, 94.5vw); height: 0px;"> 
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(0%, 0vw);"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(15%, -12.2vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(30%, -24.4vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(45%, -36.6vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(60%, -48.8vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(0%, -78vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(15%, -90.2vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(30%, -102.4vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(45%, -114.6vw)"></image-to-text>
-        <image-to-text name="Really Long Name" title="Equally Long Title" style="transform: translate(60%, -126.8vw)"></image-to-text>
+      <div class="row" style="transform: translate(20%, 90vw); height: 0px;">
+        <div class="column">
+          <image-to-text name="Rodrigo" title="President" style="transform: translate(0%, -90%);" imageSrc="rodrigoPhoto.jpg"></image-to-text>
+          <image-to-text name="Hastrali" title="Secretary" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="SEARCH_logo.png"></image-to-text>
+        </div>
+        <div class="column">
+          <image-to-text name="Spruha" title="Vice President" style="transform: translate(0%, -90%);" imageSrc="spruhaPhoto.jpg"></image-to-text>
+          <image-to-text name="Lainie" title="Social Media Manager" style="transform: translate(0%, 1.9vw); height: 0px;" imageSrc="lainiePhoto.png"></image-to-text>
+        </div>
+        <div class="column">
+          <image-to-text name="Eshaana" title="Analogs Lead" style="transform: translate(0%, -90%);" imageSrc="SEARCH_logo.png"></image-to-text>
+          <image-to-text name="Khush" title="Co-Treasurer" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="SEARCH_logo.png"></image-to-text>
+        </div>
+        <div class="column">
+          <image-to-text name="Vignesh" title="Research Lead" style="transform: translate(0%, -90%);" imageSrc="vigneshPhoto.jpg"></image-to-text>
+          <image-to-text name="Mariana" title="Co-Treasurer" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="marianaPhoto.jpg"></image-to-text>
+        </div>
+        <div class="column">
+          <image-to-text name="Saranya" title="Outreach Lead" style="transform: translate(0%, -90%);" imageSrc="SEARCH_logo.png"></image-to-text>
+          <image-to-text name="Nathanael" title="Webmaster" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="nathanaelPhoto.jpg"></image-to-text>
+        </div>
       </div>
       <img id="leadership" class="background" alt="Background" src="./assets/SEARCHLeadershipScreen.jpg" style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
       <div class="infoText" style="transform: translate(70%, 151.5vw); height: 18.1878306878vw; width: 42.9894179894vw;">
-        <h2 style="transform: translate(0%, 0%)">Contact Us</h2>
+        <h2 style="transform: translate(0%, -35%)">Contact Us</h2>
 
         <a href="https://boilerlink.purdue.edu/organization/search">
-          <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(-185%, 30%);">
+          <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(-185%, -15%);">
         </a>
         <a href="http://mdrs.marssociety.org/">
-          <img class="button" alt="logo" src="./assets/googleLogo.png" style="transform: translate(45%, 30%);">
+          <img class="button" alt="logo" src="./assets/googleLogo.png" style="transform: translate(45%, -15%);">
         </a>
       </div>
 
@@ -253,5 +263,19 @@ h4 {
 .tab {
   display: inline-block;
   margin-left: 12vw;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin: 0px;
 }
 </style>
