@@ -101,6 +101,7 @@
 import { SidebarMenu } from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import ImageToText from "./components/ImageToText"
+import Vue from 'vue'
 import VueMeta from 'vue-meta'
 Vue.use(VueMeta)
 
