@@ -1,8 +1,4 @@
 <template>
-  <head>
-    <meta name="keywords" content="SEARCH, Space, Earth, Analogs, Research, Purdue"/>
-  </head>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;605&display=swap" rel="stylesheet">
@@ -105,12 +101,32 @@
 import { SidebarMenu } from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import ImageToText from "./components/ImageToText"
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta)
 
 export default {
   name: 'App',
+  metaInfo() {
+      return { 
+          title: "Space and Earth Analogs Reasearch Chapter of Purdue",
+          meta: [
+              { name: 'description', content:  "We are Purdue University's premiere space focused chapter. Our vision as a multidisciplinary organization of students, faculty, staff, and alumni is to add more members and partners to the Cradle of Astronauts as well as increase support for human spaceflight and space exploration."},
+              { property: 'og:title', content: "Space and Earth Analogs Reasearch Chapter of Purdue"},
+              { property: 'og:site_name', content: 'SEARCH'},
+              {property: 'og:type', content: 'website'},    
+              {name: 'robots', content: 'index,follow'} 
+          ]
+      }
+  },
   components: {
     SidebarMenu,
-    ImageToText
+    ImageToText,
+    metaInfo: {
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ]
+    }
   },
   data() {
     return {
