@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <meta name="keywords" content="SEARCH, Space, Earth, Analogs, Research, Purdue"/>
+  </head>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;605&display=swap" rel="stylesheet">
