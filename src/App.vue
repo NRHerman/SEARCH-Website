@@ -101,13 +101,13 @@
 import { SidebarMenu } from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import ImageToText from "./components/ImageToText"
-import Vue from 'vue'
+/*import Vue from 'vue'
 import VueMeta from 'vue-meta'
-Vue.use(VueMeta)
+Vue.use(VueMeta)*/
 
 export default {
   name: 'App',
-  metaInfo() {
+  /*metaInfo() {
       return { 
           title: "Space and Earth Analogs Reasearch Chapter of Purdue",
           meta: [
@@ -118,16 +118,10 @@ export default {
               {name: 'robots', content: 'index,follow'} 
           ]
       }
-  },
+  },*/
   components: {
     SidebarMenu,
-    ImageToText,
-    metaInfo: {
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-      ]
-    }
+    ImageToText
   },
   data() {
     return {
