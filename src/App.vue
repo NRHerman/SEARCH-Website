@@ -54,22 +54,22 @@
       <div class="row" style="transform: translate(20%, 90vw); height: 0px;">
         <div class="column">
           <image-to-text name="Rodrigo" title="President" style="transform: translate(0%, -90%);" imageSrc="rodrigoPhoto.jpg"></image-to-text>
-          <image-to-text name="Hastrali" title="Secretary" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="SEARCH_logo.png"></image-to-text>
+          <image-to-text name="Hastrali" title="Secretary" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="hastraliPhoto.jpg"></image-to-text>
         </div>
         <div class="column">
           <image-to-text name="Spruha" title="Vice President" style="transform: translate(0%, -90%);" imageSrc="spruhaPhoto.jpg"></image-to-text>
           <image-to-text name="Lainie" title="Social Media Manager" style="transform: translate(0%, 1.9vw); height: 0px;" imageSrc="lainiePhoto.png"></image-to-text>
         </div>
         <div class="column">
-          <image-to-text name="Eshaana" title="Analogs Lead" style="transform: translate(0%, -90%);" imageSrc="SEARCH_logo.png"></image-to-text>
-          <image-to-text name="Khush" title="Co-Treasurer" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="SEARCH_logo.png"></image-to-text>
+          <image-to-text name="Eshaana" title="Analogs Lead" style="transform: translate(0%, -90%);" imageSrc="eshaanaPhoto.jpg"></image-to-text>
+          <image-to-text name="Emilie" title="Astronaut Training Lead" style="transform: translate(0%, 2vw); height: 0px;" imageSrc="emiliePhoto.png"></image-to-text>
         </div>
         <div class="column">
           <image-to-text name="Vignesh" title="Research Lead" style="transform: translate(0%, -90%);" imageSrc="vigneshPhoto.jpg"></image-to-text>
           <image-to-text name="Mariana" title="Co-Treasurer" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="marianaPhoto.jpg"></image-to-text>
         </div>
         <div class="column">
-          <image-to-text name="Saranya" title="Outreach Lead" style="transform: translate(0%, -90%);" imageSrc="SEARCH_logo.png"></image-to-text>
+          <image-to-text name="Saranya" title="Outreach Lead" style="transform: translate(0%, -90%);" imageSrc="saranyaPhoto.jpg"></image-to-text>
           <image-to-text name="Nathanael" title="Webmaster" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="nathanaelPhoto.jpg"></image-to-text>
         </div>
       </div>
