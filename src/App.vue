@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;605&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@400;605&display=swap" rel="stylesheet">
 
   <div id="page">
     <div>
@@ -90,7 +90,7 @@
         <a href="https://boilerlink.purdue.edu/organization/search">
           <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(-185%, -15%);">
         </a>
-        <a href="http://mdrs.marssociety.org/">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScLub9pSdyF5zxi1kmhjpCZY1Sx00hdKbrGMLp8cLCT1duHhw/viewform">
           <img class="button" alt="logo" src="./assets/googleLogo.png" style="transform: translate(45%, -15%);">
         </a>
       </div>
@@ -163,7 +163,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-family: "Oswald", "Montserrat", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
