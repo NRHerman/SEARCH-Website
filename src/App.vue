@@ -3,7 +3,10 @@
     <title>
       Space and Earth Analogs Research Chapter of Purdue
     </title>
-    <meta name="description" content="We are Purdue University's premiere space focused chapter. Our vision as a multidisciplinary organization of students, faculty, staff, and alumni is to add more members and partners to the Cradle of Astronauts as well as increase support for human spaceflight and space exploration.">
+    <meta name="description" content="We are Purdue University's premiere space focused chapter. 
+      Our vision as a multidisciplinary organization of students, faculty, staff, 
+      and alumni is to add more members and partners to the Cradle of Astronauts 
+      as well as increase support for human spaceflight and space exploration.">
   </head>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,29 +22,38 @@
     <div>
       <div class="infoText" style="transform: translate(30vw, 54vw);">
         <h2 style="transform: translate(-25%, -27.5%);">What we do.</h2>
-        <p class="bodyText" style="transform: translate(10%, -27.5%); width: 87.5%; text-align: left;">
+        <p class="bodyText" style="transform: translate(10%, -27.5%);">
           We are Purdue University's premiere space focused chapter. Our vision as a multidisciplinary
-          organization of students, faculty, staff, and alumni is to add more members and partners to the Cradle of Astronauts as well as increase support for human spaceflight and space exploration.
+          organization of students, faculty, staff, and alumni is to add more members and partners to the Cradle of Astronauts 
+          as well as increase support for human spaceflight and space exploration.
         </p>
-        <p class="bodyText" style="transform: translate(10%, -27.5%); width: 87.5%; text-align: left;">
-          We were founded by passionate students of space and wish to grow through analog astronaut missions, outreach events with industry experts, national and global competitions, and skill building workshops. 
+        <p class="bodyText" style="transform: translate(10%, -27.5%);">
+          We were founded by passionate students of space and wish to grow through analog astronaut missions, 
+          outreach events with industry experts, national and global competitions, and skill building workshops. 
           We wish to offer our members unique and hands-on learning experiences to constantly remind them why they fell in love with space.
         </p>
-        <p class="bodyText" style="transform: translate(10%, -70%); width: 87.5%; text-align: left;">
+        <p class="bodyText" style="transform: translate(10%, -70%);">
           The organizational structure of SEARCH is split into three technical sub-teams: Analogs, Research, and Outreach.
         </p>
       </div>
-      <img  id="mission" class="background" alt="Background" src="./assets/SEARCHMissionScreen.jpg" style="transform: translate(-50%, 50%);">
+
+      <img  id="mission" class="background" alt="Background" src="./assets/SEARCHMissionScreen.jpg" 
+        style="transform: translate(-50%, 50%);">
     </div>
 
     <div>
       <div class="infoText" style="transform: translate(30vw, 69vw); height: 40vw;">
-        <h2 style="transform: translate(3.5%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
-        <p class="bodyText" style="transform: translate(10%, -50%); width: 45vw; text-align: left;">
-          The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue for a two-week Mars-analog simulation in the desert of Utah. There, students perform innovative scientific experiments and simulate complete isolation to further advance the possibilities of Mars exploration.
+        <h2 style="transform: translate(3.25%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
+        <p class="bodyText" style="transform: translate(10%, -67.5%);">
+          The <a href="http://mdrs.marssociety.org/">MDRS</a> mission is to select an elite crew of students to represent Purdue 
+            for a two-week Mars-analog simulation in the desert of Utah. 
+            There, students perform innovative scientific experiments and simulate complete isolation to further advance 
+            the possibilities of Mars exploration.
         </p>
+
         <h3 style="transform: translate(3.5%, -160%); text-align: left;">Past Missions</h3>
-        <div style="transform: translate(-10%, -5.5vw)">
+
+        <div style="transform: translate(-10%, -4.5vw)">
           <a href="http://mdrs.marssociety.org/crew-186/">
           <img class="button" alt="logo" src="./assets/MDRSCrew4.png" style="transform: translate(-200%, 20%);">
           </a>
@@ -54,33 +66,50 @@
           <h4 style="transform: translate(11.45%, 215%);">2018<span class="tab"></span>2019<span class="tab"></span>2020</h4>
         </div>
       </div>
+
       <img id="MDRS" class="background" alt="Background" src="./assets/SEARCHMDRSScreen.jpg" style="transform: translate(-50%, 150%);">
     </div>
 
     <div>
       <div class="row" style="transform: translate(20%, 90vw); height: 0px;">
         <div class="column">
-          <image-to-text name="Rodrigo" title="President" style="transform: translate(0%, -90%);" imageSrc="rodrigoPhoto.jpg"></image-to-text>
-          <image-to-text name="Hastrali" title="Secretary" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="hastraliPhoto.jpg"></image-to-text>
+          <image-to-text name="Rodrigo" title="President" style="transform: translate(0%, -90%);" 
+            imageSrc="rodrigoPhoto.jpg"></image-to-text>
+          <image-to-text name="Hastrali" title="Secretary" style="transform: translate(0%, 5vw); height: 0px;" 
+            imageSrc="hastraliPhoto.jpg"></image-to-text>
         </div>
+
         <div class="column">
-          <image-to-text name="Spruha" title="Vice President" style="transform: translate(0%, -90%);" imageSrc="spruhaPhoto.jpg"></image-to-text>
-          <image-to-text name="Lainie" title="Social Media Manager" style="transform: translate(0%, 1.9vw); height: 0px;" imageSrc="lainiePhoto.png"></image-to-text>
+          <image-to-text name="Spruha" title="Vice President" style="transform: translate(0%, -90%);" 
+            imageSrc="spruhaPhoto.jpg"></image-to-text>
+          <image-to-text name="Lainie" title="Social Media Manager" style="transform: translate(0%, 1.9vw); height: 0px;" 
+            imageSrc="lainiePhoto.png"></image-to-text>
         </div>
+
         <div class="column">
-          <image-to-text name="Eshaana" title="Analogs Lead" style="transform: translate(0%, -90%);" imageSrc="eshaanaPhoto.jpg"></image-to-text>
-          <image-to-text name="Emilie" title="Astronaut Training Lead" style="transform: translate(0%, 2vw); height: 0px;" imageSrc="emiliePhoto.png"></image-to-text>
+          <image-to-text name="Eshaana" title="Analogs Lead" style="transform: translate(0%, -90%);" 
+            imageSrc="eshaanaPhoto.jpg"></image-to-text>
+          <image-to-text name="Emilie" title="Astronaut Training Lead" style="transform: translate(0%, 2vw); height: 0px;" 
+            imageSrc="emiliePhoto.png"></image-to-text>
         </div>
+
         <div class="column">
-          <image-to-text name="Vignesh" title="Research Lead" style="transform: translate(0%, -90%);" imageSrc="vigneshPhoto.jpg"></image-to-text>
-          <image-to-text name="Mariana" title="Co-Treasurer" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="marianaPhoto.jpg"></image-to-text>
+          <image-to-text name="Vignesh" title="Research Lead" style="transform: translate(0%, -90%);" 
+            imageSrc="vigneshPhoto.jpg"></image-to-text>
+          <image-to-text name="Mariana" title="Co-Treasurer" style="transform: translate(0%, 5vw); height: 0px;" 
+            imageSrc="marianaPhoto.jpg"></image-to-text>
         </div>
+
         <div class="column">
-          <image-to-text name="Saranya" title="Outreach Lead" style="transform: translate(0%, -90%);" imageSrc="saranyaPhoto.jpg"></image-to-text>
-          <image-to-text name="Nathanael" title="Webmaster" style="transform: translate(0%, 5vw); height: 0px;" imageSrc="nathanaelPhoto.jpg"></image-to-text>
+          <image-to-text name="Saranya" title="Outreach Lead" style="transform: translate(0%, -90%);" 
+            imageSrc="saranyaPhoto.jpg"></image-to-text>
+          <image-to-text name="Nathanael" title="Webmaster" style="transform: translate(0%, 5vw); height: 0px;" 
+            imageSrc="nathanaelPhoto.jpg"></image-to-text>
         </div>
       </div>
-      <img id="leadership" class="background" alt="Background" src="./assets/SEARCHLeadershipScreen.jpg" style="transform: translate(-50%, 250%);">
+
+      <img id="leadership" class="background" alt="Background" src="./assets/SEARCHLeadershipScreen.jpg" 
+        style="transform: translate(-50%, 250%);">
     </div>
 
     <div>
@@ -90,40 +119,30 @@
         <a href="https://boilerlink.purdue.edu/organization/search">
           <img class="button" alt="logo" src="./assets/SEARCH_logo.png" style="transform: translate(-185%, -15%);">
         </a>
+
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScLub9pSdyF5zxi1kmhjpCZY1Sx00hdKbrGMLp8cLCT1duHhw/viewform">
           <img class="button" alt="logo" src="./assets/googleLogo.png" style="transform: translate(45%, -15%);">
         </a>
       </div>
 
-      <img id="joinUs" class="background" alt="Background" src="./assets/SEARCHContactUsScreen.jpg" style="transform: translate(-50%, 350%);">
+      <img id="joinUs" class="background" alt="Background" src="./assets/SEARCHContactUsScreen.jpg" 
+        style="transform: translate(-50%, 350%);">
     </div>
   </div>
 
   <h4 class="logoText" style="top: 70px; left: 10vw; color: white;">SEARCH of Purdue</h4>
   <img class="logo" style="top: 70px; left: 0.661375661376vw;" alt="SEARCH Logo" src="./assets/SEARCH_logo.png">
-  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(0%, 100%); margin-left: 3.30687830688vw; height: 31%; width: 140px; border-radius: 25px; background-color: transparent;"/>
+  <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(0%, 100%); margin-left: 3.30687830688vw; 
+    height: 31%; width: 140px; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
 import { SidebarMenu } from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import ImageToText from "./components/ImageToText"
-//import VueMeta from 'vue-meta'
 
 export default {
   name: 'App',
-  /*metaInfo() {
-      return { 
-          title: "Space and Earth Analogs Reasearch Chapter of Purdue",
-          meta: [
-              { name: 'description', content:  "We are Purdue University's premiere space focused chapter. Our vision as a multidisciplinary organization of students, faculty, staff, and alumni is to add more members and partners to the Cradle of Astronauts as well as increase support for human spaceflight and space exploration."},
-              { property: 'og:title', content: "Space and Earth Analogs Reasearch Chapter of Purdue"},
-              { property: 'og:site_name', content: 'SEARCH'},
-              {property: 'og:type', content: 'website'},    
-              {name: 'robots', content: 'index,follow'} 
-          ]
-      }
-  },*/
   components: {
     SidebarMenu,
     ImageToText
@@ -226,10 +245,11 @@ html {
 }
 
 .bodyText {
-  width: 50%;
+  width: 87.5%;
   transform: translate(75%, 800%);
   font-size: 1.3vw;
   margin: 2.25vw;
+  text-align: left;
 }
 
 video {
