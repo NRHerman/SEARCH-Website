@@ -1,4 +1,5 @@
 <template>
+  <!-- Search Keywords Prototype (Untested) -->
   <head>
     <title>
       Space and Earth Analogs Research Chapter of Purdue
@@ -9,16 +10,20 @@
       as well as increase support for human spaceflight and space exploration.">
   </head>
 
+  <!-- Font Imports -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@400;605&display=swap" rel="stylesheet">
 
+  <!-- Website HTML -->
   <div id="page">
+    <!-- Title/Introduction Page -->
     <div>
       <img class="background" alt="Background" src="./assets/SEARCHTitleScreen.jpg" style="transform: translate(-50%, -50%);">
       <h1 style="transform: translate(19.5%, 12vw);">Welcome to SEARCH</h1>
     </div>
     
+    <!-- Mission Statement Page -->
     <div>
       <div class="infoText" style="transform: translate(30vw, 54vw);">
         <h2 style="transform: translate(-25%, -27.5%);">What we do.</h2>
@@ -41,6 +46,7 @@
         style="transform: translate(-50%, 50%);">
     </div>
 
+    <!-- MDRS Information Page -->
     <div>
       <div class="infoText" style="transform: translate(30vw, 69vw); height: 40vw;">
         <h2 style="transform: translate(3.25%, -12.5%); text-align: left;">The Mars Desert Research Station.</h2>
@@ -70,6 +76,7 @@
       <img id="MDRS" class="background" alt="Background" src="./assets/SEARCHMDRSScreen.jpg" style="transform: translate(-50%, 150%);">
     </div>
 
+    <!-- Leadership Page -->
     <div>
       <div class="row" style="transform: translate(20%, 90vw); height: 0px;">
         <div class="column">
@@ -112,6 +119,7 @@
         style="transform: translate(-50%, 250%);">
     </div>
 
+    <!-- Contact Page -->
     <div>
       <div class="infoText" style="transform: translate(70%, 151.5vw); height: 18.1878306878vw; width: 42.9894179894vw;">
         <h2 style="transform: translate(0%, -35%)">Contact Us</h2>
@@ -130,13 +138,17 @@
     </div>
   </div>
 
+  <!-- Header Logo -->
   <h4 class="logoText" style="top: 70px; left: 10vw; color: white;">SEARCH of Purdue</h4>
   <img class="logo" style="top: 70px; left: 0.661375661376vw;" alt="SEARCH Logo" src="./assets/SEARCH_logo.png">
+
+  <!-- Sidebar Menu -->
   <sidebar-menu :menu="menu" hideToggle="true" style="transform: translate(0%, 100%); margin-left: 3.30687830688vw; 
     height: 31%; width: 140px; border-radius: 25px; background-color: transparent;"/>
 </template>
 
 <script>
+// Imports
 import { SidebarMenu } from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import ImageToText from "./components/ImageToText"
@@ -149,6 +161,7 @@ export default {
   },
   data() {
     return {
+      // Menu Data
       menu: [
           {
             hiddenOnCollapse: true,
@@ -181,6 +194,7 @@ export default {
 </script>
 
 <style>
+/* CSS */
 #app {
   font-family: "Oswald", "Montserrat", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -201,6 +215,7 @@ html {
   flex-direction: row;
 }
 
+/* Logo Formating */
 .logo {
   margin: 20px;
   width: 7.5%;
@@ -225,6 +240,7 @@ html {
   opacity: 1;
 }
 
+/* Background Images */
 .background {
   z-index: -1000;
   left: 50%;
@@ -244,14 +260,7 @@ html {
   opacity: 0;
 }
 
-.bodyText {
-  width: 87.5%;
-  transform: translate(75%, 800%);
-  font-size: 1.3vw;
-  margin: 2.25vw;
-  text-align: left;
-}
-
+/* Background Video - Not currently in use, but may be useful in the future. */
 video {
   z-index: -1000;
   left: 50%;
@@ -271,6 +280,15 @@ video {
   opacity: 0;
 }
 
+/* Body Text */
+.bodyText {
+  width: 87.5%;
+  transform: translate(75%, 800%);
+  font-size: 1.3vw;
+  margin: 2.25vw;
+  text-align: left;
+}
+
 .infoText {
   width: 54%;
   border: 1vw solid rgb(255, 255, 255);
@@ -279,6 +297,7 @@ video {
   margin: 0px;
 }
 
+/* Text/Header Formating */
 h1 {
   font-size: 6vw;
   margin: 2.7vw;
@@ -305,6 +324,7 @@ h4 {
   margin-left: 12vw;
 }
 
+/* Leadership Page Formating */
 .column {
   float: left;
   width: 15%;
